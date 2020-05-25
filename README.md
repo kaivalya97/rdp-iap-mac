@@ -32,3 +32,5 @@ Finally the script will open Microsoft Remote Desktop using an RDP link as the a
 ## Troubleshooting:
 
 - If you are using the Beta version of Microsoft Remote Desktop, you will have to change the open command to "/Applications/Microsoft\ Remote\ Desktop\ Beta.app"
+
+## Special mention to https://github.com/GoogleCloudPlatform/iap-desktop which is a graphical application that does the same thing for Windows
