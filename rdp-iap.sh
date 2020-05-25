@@ -1,4 +1,4 @@
-set -e # Ignore errors
+set -e # Exit if error
 trap 'rm tmp nohup.out' EXIT # Delete temp files if error occurs
 
 if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]; then
