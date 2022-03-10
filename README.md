@@ -32,5 +32,9 @@ Finally the script will open Microsoft Remote Desktop using an RDP link as the a
 ## Troubleshooting:
 
 - If you are using the Beta version of Microsoft Remote Desktop, you will have to change the open command to "/Applications/Microsoft\ Remote\ Desktop\ Beta.app"
+- If you face an error like this:
+The file /Users/AB112/Documents/test/testing/rdp:/full%20address=s:localhost:&username:s:ab112&audiomode=i:0&disable%20themes=i:1&desktopwidth:i:&desktopheight:i:&prompt%20for%20credentials%20on%20client:i:0 does not exist.
+rm: tmp: No such file or directory
+On Big Sur you can edit line 19 and remove "//" after "rdp:" Thanks to @corbinweigel for the tip.
 
 ## Special mention to https://github.com/GoogleCloudPlatform/iap-desktop which is a graphical application that does the same thing for Windows
